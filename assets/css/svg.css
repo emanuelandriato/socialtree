@@ -1,0 +1,42 @@
+.icon{    
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 24px;
+    width: 24px;    
+    filter: invert(78%) sepia(14%) saturate(2438%) hue-rotate(203deg) brightness(92%) contrast(87%);
+}
+
+.icon:hover{
+    filter: invert(27%) sepia(16%) saturate(4102%) hue-rotate(250deg) brightness(94%) contrast(85%);
+}
+
+.facebook{    
+    background-image: url("../img/facebook.svg");    
+}
+.instagran{
+    background-image: url("../img/instagram.svg");     
+}
+.twitter{
+    background-image: url("../img/twitter.svg");
+}
+.twitch{
+    background-image: url("../img/twitch.svg");   
+}
+.linkedin{
+    background-image: url("../img/linkedin.svg");
+}
+.github{
+    background-image: url("../img/github.svg");     
+}
+.pinmap{
+    background-image: url("../img/instagram.svg");     
+}
+.briefcase{
+    background-image: url("../img/briefcase.svg");     
+}
+.globe{    
+    background-image: url("../img/globe.svg");    
+}
+.email{
+    background-image: url("../img/mail.svg");    
+}

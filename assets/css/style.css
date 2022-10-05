@@ -1,0 +1,138 @@
+*{   
+    margin: 0;                        
+    box-sizing: border-box;   
+}
+
+body{    
+    margin: 8px;  
+    background-color: #FAF7FD;
+    color: #BB99DD;  
+} 
+
+/* ---------- Flex ---------- */
+.container{
+    display: flex;
+    flex-direction: column;      
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;    
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+    text-align: center;    
+}
+
+.justify-between{
+    justify-content: space-between;   
+}
+
+.center{
+    justify-content: center;
+    text-align: center;   
+}
+.text-center{
+    text-align: center;
+}
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-container{    
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin: 0 auto;
+}
+
+.social-links{        
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center;
+    align-items: center;
+    width: 80%;    
+    min-width: 300px;
+    gap: 15px;    
+}
+
+.social-links .item{     
+    display: flex;      
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;    
+    border: 2px solid #BB99DD;
+    height: 40px;
+    width: 300px;            
+}
+
+.social-links a{ 
+    text-decoration: none;
+}
+
+.social-links :hover{     
+    /*border: 1px solid rgb(121, 61, 143);*/
+    border-color: rgb(121, 61, 143);   
+    color: #793d8f;
+}
+
+.social-icons{
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ---------- forms ---------- */
+.ellipse{        
+    width: 128px;
+    height: 128px;                        
+    border-radius: 50% 50% 50% 50%;
+    border: 2px solid #BB99DD;
+}
+
+.mypicture{    
+    margin: 20px;
+    background-image: url("../img/perfil.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
