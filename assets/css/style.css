@@ -9,7 +9,22 @@ body{
     color: #BB99DD;  
 } 
 
+.border-teste{
+    border: 1px dashed red;
+}
+
 /* ---------- Flex ---------- */
+.main-container{       
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin: 0 auto;
+}
+
 .container{
     display: flex;
     flex-direction: column;      
@@ -67,17 +82,6 @@ ul{
     gap: 10px;
 }
 
-.main-container{    
-    display: flex;  
-    flex-direction: column;
-    width: 100%;
-    max-width: 500px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;    
-    margin: 0 auto;
-}
-
 .social-links{        
     display: flex;
     flex-direction: column;
@@ -86,7 +90,7 @@ ul{
     align-items: center;
     width: 80%;    
     min-width: 300px;
-    gap: 15px;    
+    gap: 10px;    
 }
 
 .social-links .item{     
@@ -97,7 +101,7 @@ ul{
     align-content: center;
     align-items: center;    
     border: 2px solid #BB99DD;
-    height: 40px;
+    height: 35px;
     width: 300px;            
 }
 
@@ -107,7 +111,7 @@ ul{
 
 .social-links :hover{     
     /*border: 1px solid rgb(121, 61, 143);*/
-    border-color: rgb(121, 61, 143);   
+    border-color: #793d8f;   
     color: #793d8f;
 }
 
@@ -118,6 +122,11 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-size: 24px;
+}
+
+.social-icons i:hover{
+    color: #793d8f;
 }
 
 /* ---------- forms ---------- */
@@ -130,9 +139,9 @@ ul{
 
 .mypicture{    
     margin: 20px;
-    background-image: url("../img/perfil.jpg");
+    background-image: url("../img/noimage.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;        
 }  
 
